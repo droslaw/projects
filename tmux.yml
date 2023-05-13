@@ -1,0 +1,9 @@
+session_name: projects
+windows:
+  - window_name: projects
+    panes:
+      - cd ${PROJECTS_DIR}
+  - window_name: workspaces
+    panes:
+      - cd ${WORKSPACES_DIR}
+ 

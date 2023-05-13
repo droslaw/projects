@@ -1,0 +1,3 @@
+git: git@github.com:droslaw/code-snippets.git
+containers:
+  docker-compose: ./code-snippets/docker-compose.yml

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dev-container:
+    image: mcr.microsoft.com/vscode/devcontainers/base:ubuntu
+    container_name: vscode-server.code-snippets
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes: 
+      - ${PROJECTS_DIR}/code-snippets:/workspaces/

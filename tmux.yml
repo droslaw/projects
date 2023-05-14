@@ -6,4 +6,6 @@ windows:
   - window_name: workspaces
     panes:
       - cd ${WORKSPACES_DIR}
- 
+  - window_name: docker
+    layout: tiled
+
